@@ -45,13 +45,13 @@ if view == "🏠 Home":
 
     # --- Dynamic Background ---
     if model_choice == "None":
-        set_background("wallpapers/asd.png")
+        set_background("asd.png")
     elif model_choice == "Random Forest":
-        set_background("wallpapers/Random_forest.png")
+        set_background("Random_forest.png")
     elif model_choice == "XGBoost":
-        set_background("wallpapers/xgboost.png")
+        set_background("xgboost.png")
     elif model_choice == "SVC":
-        set_background("wallpapers/SVC.png")
+        set_background("SVC.png")
 
     # --- Layout and Prediction Interface ---
     col1, col2 = st.columns([2, 3])
